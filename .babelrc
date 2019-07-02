@@ -1,0 +1,9 @@
+{
+    "plugins": [
+        "@babel/plugin-transform-object-super",
+        "@babel/plugin-transform-template-literals",
+        "@babel/plugin-transform-classes",
+        "@babel/plugin-transform-block-scoping",
+        "@babel/plugin-transform-arrow-functions"
+    ]
+}
