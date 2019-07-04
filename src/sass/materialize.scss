@@ -114,5 +114,36 @@ header {
 }
 
 #partners {
-  height: 600px;
+  height: 100vh;
+}
+
+#contact {
+  height: 100%;
+  .container {
+    width: 90%;
+  }
+  .mapouter {
+    border-radius: 5px;
+    margin-bottom: 30px;
+  }
+}
+
+footer {
+  height: 100% p {
+    padding: 0;
+    margin: 0;
+  }
+  .input-field {
+    margin: 0;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    label {
+      color: #fff !important;
+    }
+  }
+  .footer-copyright {
+    border-top: #fff solid 2px;
+    margin: 0;
+    padding: 0;
+  }
 }
