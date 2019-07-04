@@ -159,18 +159,19 @@ nav {
 
   // Navbar Search Form
   form {
-    height: 70%;
-    margin: 10px;
+    height: 100%;
+    margin: 0px;
     border-radius: 5px;
+    // box-shadow: 1px 1px 3px 1px #000;
     background-color: rgba(3, 94, 3, 0.226);
   }
 
   .input-field {
-    bottom: 20px;
+    bottom: 50%;
     height: 100%;
 
     input {
-      margin-top: 5px;
+      // margin-top: 5px;
       height: 100%;
       font-size: 1.2rem;
       border: 1px solid rgb(253, 0, 0);

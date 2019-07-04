@@ -45,6 +45,10 @@ html {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 nav {
   a {
@@ -71,12 +75,44 @@ header {
   }
 }
 
-.container {
-  width: 90%;
+#top_selling {
+  height: 100%;
+  h4 {
+    padding: 20px;
+  }
+  .container {
+    width: 90%;
+  }
 }
 
-.prop_boxes {
-  .card {
-    height: 200px;
+#kale_info {
+  height: 100%;
+  img {
+    width: 100%;
   }
+  .content {
+    margin-top: 10%;
+  }
+}
+
+#shop_goal {
+  height: 100vh;
+  background-color: #ccc;
+
+  .circle {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+  }
+  i {
+    margin-top: 35%;
+  }
+}
+
+#partners {
+  height: 600px;
 }
