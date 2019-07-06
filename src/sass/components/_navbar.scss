@@ -21,7 +21,7 @@ nav {
   line-height: $navbar-line-height-mobile;
 
   a {
-    color: rgb(0, 70, 0);
+    @extend .green-text, .text-darken-2;
     font-weight: 600;
   }
 
@@ -30,7 +30,7 @@ nav {
   [class*="mdi-"],
   i.material-icons {
     display: block;
-    font-size: 24px;
+    font-size: 30px;
     height: $navbar-height-mobile;
     line-height: $navbar-line-height-mobile;
   }
@@ -128,7 +128,7 @@ nav {
     }
     a {
       transition: background-color 0.3s;
-      font-size: $navbar-font-size;
+      font-size: 1rem;
       display: block;
       padding: 0 15px;
       cursor: pointer;
@@ -148,7 +148,7 @@ nav {
       }
 
       &:hover {
-        background-color: rgba(0, 0, 0, 0.1);
+        background-color: rgba(1, 114, 1, 0.1);
       }
     }
 

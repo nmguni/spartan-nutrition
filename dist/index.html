@@ -44,6 +44,7 @@
         <a href="#" class="brand-logo"
           ><img src="img/logo222.png" alt="" width="150px"
         /></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="sass.html">Sass</a></li>
           <li><a href="badges.html">Components</a></li>
@@ -53,23 +54,35 @@
         </ul>
       </div>
     </nav>
-    <div class="container">
+    <!-- <div class="container">
       <marquee behavior="scroll" direction="left"
         >Free shipping over $49</marquee
       >
-    </div>
+    </div> -->
+    <!-- mobile nav -->
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">Javascript</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+
     <!-- search & slider -->
 
     <!-- img carousel -->
     <header>
+      <div class="bg-img"> 
+        <div class="light_overlay"> 
       <div class="head_content">
         <h2>"ASK THE EXPERTS!"</h2>
         <h4>Local and same day delivery only $5.00</h4>
         <div class="head_buttons">
           <button class="btn waves-effect  green darken-4">Shop now</button>
           <button class="btn waves-effect green darken-4">Find Store</button>
+          </div>
         </div>
       </div>
+      
     </header>
 
     <div class="row">
@@ -77,7 +90,7 @@
         <div class="card">
           <div class="card-image">
             <a href="#">
-              <img src="img/athlete-barbell-blurred-background-700446.jpg"
+              <img src="img/athlete-barbell-blurred-background-700446.jpg" 
             /></a>
             <span class="card-title"
               >Free Advice <br />Tailored to You!
@@ -170,13 +183,11 @@
       <div id="kale_info">
         <div class="row">
           <div class="col s12 m6 content">
-            <h5>Well Hello, Protein!</h5>
+            <h2>Well Hello, Protein!</h2>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae quia deserunt ullam eius veniam! Iusto neque quidem
-              maiores maxime recusandae officia vol.
+                Protein is an important component of every cell in the body. ... Your body uses protein to build and repair tissues. You also use protein to make enzymes, hormones, and other body chemicals. Protein is an important building block of bones, muscles, cartilage, skin, and blood.
             </p>
-            <a href="#" class="btn">LEARN MORE</a>
+            <a href="#" class="btn green darken-4">LEARN MORE</a>
           </div>
           <div class="col s12 m6">
             <img src="img/protein_powderSL1500_.jpg" alt="" />
@@ -188,43 +199,42 @@
     <!-- circles -->
     <section id="shop_goal">
       <div class="container">
-        <h1 class="center">Shop By Goal</h1>
-
-        <div class="row center">
-          <div class="col s12 m6 l3">
-            <p class="circle"><i class="fas fa-tint fa-2x"></i></p>
-            <p>mens health</p>
+        <h3 class="center">Shop By Goal</h3>
+        <div class="row center ">
+          <div class="col s12 m6 l3 hover_color">
+            <p class="hover_border circle"><i class="fas fa-tint fa-2x"></i></ph</p>
+            <p class="hover_text">mens health</p>
           </div>
-          <div class="col s12 m6 l3">
-            <p class="circle "><i class="fas fa-tint fa-2x"></i></p>
-            <p>mens health</p>
+          <div class="col s12 m6 l3 hover_color">
+            <p class="circle hover_border "><i class="fas fa-seedling fa-2x"></i></p>
+            <p class="hover_text">mens health</p>
           </div>
-          <div class="col s12 m6 l3">
-            <p class="circle "><i class="fas fa-tint fa-2x"></i></p>
-            <p>mens health</p>
+          <div class="col s12 m6 l3 hover_color">
+            <p class="circle hover_border "><i class="fas fa-bone fa-2x"></i></i></p>
+            <p class="hover_text" >mens health</p>
           </div>
-          <div class="col s12 m6 l3">
-            <p class="circle "><i class="fas fa-tint fa-2x"></i></p>
-            <p>mens health</p>
+          <div class="col s12 m6 l3 hover_color">
+            <p class="circle hover_border "><i class="fas fa-shoe-prints fa-2x"></i></p>
+            <p class="hover_text" >mens health</p>
           </div>
         </div>
 
         <div class="row center">
-            <div class="col s12 m6 l3">
-              <p class="circle"><i class="fas fa-tint fa-2x"></i></p>
-              <p>mens health</p>
+            <div class="col s12 m6 l3 hover_color">
+              <p class="circle hover_border"><i class="far fa-lightbulb fa-2x"></i></p>
+              <p class="hover_text" >mens health</p>
             </div>
-            <div class="col s12 m6 l3">
-              <p class="circle "><i class="fas fa-tint fa-2x"></i></p>
-              <p>mens health</p>
+            <div class="col s12 m6 l3 hover_color">
+              <p class="circle hover_border "><i class="fas fa-heartbeat fa-2x"></i></p>
+              <p class="hover_text" >mens health</p>
             </div>
-            <div class="col s12 m6 l3">
-              <p class="circle "><i class="fas fa-tint fa-2x"></i></p>
-              <p>mens health</p>
+            <div class="col s12 m6 l3 hover_color">
+              <p class="circle hover_border "><i class="fas fa-mars fa-2x"></i></p>
+              <p class="hover_text" >mens health</p>
             </div>
-            <div class="col s12 m6 l3">
-              <p class="circle "><i class="fas fa-tint fa-2x"></i></p>
-              <p>mens health</p>
+            <div class="col s12 m6 l3 hover_color">
+              <p class="circle hover_border "><i class="fas fa-venus fa-2x"></i></p>
+              <p class="hover_text" >mens health</p>
             </div>
           </div>
         </div>
@@ -238,20 +248,20 @@
           <h3>PROUD PARTNERS</h3>
          <p> AND OFFICIAL NUTRITION SUPPLIERS OF...</p>
         <div class="row">
-          <div class="col s12 m6 l3">
+          <div class="col s12 m6 l3 hover_color">
             <img src="img/uwo.jpg" width="100%" alt="">
             <p>Junior Mustangs</p>
           </div>
-          <div class="col s12 m6 l3">
+          <div class="col s12 m6 l3 hover_color">
               <img src="img/golden.png" width="100%" alt="">
               <p>London Knights</p>
              
           </div>
-          <div class="col s12 m6 l3">
+          <div class="col s12 m6 l3 hover_color">
             <img src="img/lightning.jpg"  width="100%" alt="">
             <p>London Lightning</p>
           </div>
-          <div class="col s12 m6 l3">
+          <div class="col s12 m6 l3 hover_color">
               <img src="img/mma.jpg" style="border-radius: 5px" width="100%" alt="">
               <p>Adrenaline MMA</p>
           </div>
@@ -261,6 +271,7 @@
 
     <!-- contact / footer -->
     <section id="contact">
+        <h2 class="center">contact</h2>
       <div class="container"> 
       <div class="row">
         <div class="col s12 m4">
@@ -297,10 +308,7 @@
                  <li>Site Map</li>
                  <li>Open a Franchise</li>
                  <li>Event Sponcership</li>
-
                </ul>
-
-
              </div>
              <div class="col s12 m2">
                About
@@ -316,30 +324,12 @@
              <div class="col s12 m2">
                follow us
                <ul>
-                 <li><i class="fas fa-tint fa-2x"></i></li>
-                 <li><i class="fas fa-tint fa-2x"></i></li>
-                 <li><i class="fas fa-tint fa-2x"></i></li>
-                 <li><i class="fas fa-tint fa-2x"></i></li>
+               <li><i class="fab fa-facebook-f fa-2x"></i></li>
+                 <li><i class="fab fa-twitter fa-2x"></i></li>
+                 <li><i class="fab fa-instagram fa-2x"></i></i></li>
                </ul>
-             </div>
-               
-              </div>
-              <div class="col l4 offset-l2 s12">
-                
-              </div>
-              
-            </div>
-          </div>
-          <div class="footer-copyright center">
-            <div class="container">
-              <div class="row">
-                <div class="col s12 m6">© 1997-2019 Spartan Nutrition, Inc.</div>
-                <div class="col s12 m3"> <a href="#">Privacy Statement</a> </div>
-                <div class="col s12 m3"> <a href="#">Terms & conditions</a> </div>
-              </div>
-                
-         
-            </div>
+             </div>    
+                  </div>
           </div>
         </footer>
              
@@ -356,7 +346,11 @@
     <script>
       M.AutoInit();
 
-  
+      // mobile nav
+      document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(elems, options);
+  });
     </script>
   </body>
 </html>
