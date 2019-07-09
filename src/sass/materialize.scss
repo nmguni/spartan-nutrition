@@ -44,6 +44,7 @@ html {
   padding: 0;
   margin: 0;
   font-family: brandon-grotesque, Arial, sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   margin: 0;
@@ -58,7 +59,7 @@ nav {
   }
 }
 
-// HEADER ----
+//---------------------- HEADER ----
 header {
   height: 500px;
 
@@ -93,43 +94,70 @@ header {
     margin: 10px;
   }
 }
+// -------------TOP SELLING -----------
 
 #top_selling {
-  height: 100%;
+  height: 100vh;
   color: rgba(0, 0, 0, 0.8);
-  h4 {
-    padding: 20px;
+  text-transform: capitalize;
+  i {
+    color: #1b5e20;
   }
+  .rating {
+    font-size: 10px;
+  }
+  h5 {
+    font-weight: 500;
+  }
+  .content {
+    padding-top: 10%;
+  }
+
   .container {
     width: 90%;
   }
 }
-
-#kale_info {
-  height: 100%;
+//  ----------------PROTEIN
+#protein {
+  height: 100vh;
   h2 {
-    font-family: brandon-grotesque, Arial, sans-serif;
     font-weight: 600;
     font-size: 32px;
     color: #2f333a;
     letter-spacing: 1.2px;
     margin: 0;
+    text-shadow: 2px 2px 2px #ccc;
+  }
+  .btn {
+    background-color: #fff;
+    color: #1b5e20;
+    font-weight: 600;
+    border: #1b5e20 solid 2px;
+    border-radius: 5px;
   }
   img {
     width: 100%;
   }
   .content {
-    margin-top: 10%;
+    padding-top: 15%;
   }
 }
 //            GOAL ----------------------
 #shop_goal {
+  @extend .green, .lighten-4;
   height: 100vh;
   background-color: #f7f7f7;
-  padding: 20px;
-
+  padding-top: 7%;
+  h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #2f333a;
+    letter-spacing: 1.2px;
+    margin: 0;
+    text-shadow: 2px 2px 2px #ccc;
+  }
   .row {
-    margin-top: 10%;
+    margin-top: 5%;
   }
 
   .hover_color:hover {
@@ -159,35 +187,57 @@ header {
 //        PARTNERS --------------------
 #partners {
   height: 100vh;
-  // margin-top: 5%;
-  // @extend .green, .lighten-4;
+  padding-top: 5%;
+  h2 {
+    font-weight: bold;
+    font-size: 32px;
+    color: #2f333a;
+    letter-spacing: 1.2px;
+    margin: 0;
+    text-shadow: 2px 2px 2px #ccc;
+  }
+
   .row {
     margin-top: 10%;
   }
 }
 
 #contact {
-  // height: 100vh;
+  height: 100vh;
+  background-color: #f7f7f7;
+  padding-top: 10%;
+  h2 {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 32px;
+    color: #2f333a;
+    letter-spacing: 1.2px;
+    margin: 0;
+    text-shadow: 2px 2px 2px #ccc;
+    text-transform: uppercase;
+  }
+}
+
+//      location ------------
+
+#location {
+  background-color: #f7f7f7;
+  padding-top: 10%;
+  height: 100vh;
   .container {
     width: 90%;
   }
   .mapouter {
-    border-radius: 5px;
-    margin-bottom: 30px;
+    box-shadow: 2px 2px 2px 3px rgb(73, 73, 73);
   }
-}
-
-footer {
-  height: 100% p {
-    // padding: 0;
-    // margin: 0;
-  }
-  .input-field {
+  h2 {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 32px;
+    color: #2f333a;
+    letter-spacing: 1.2px;
     margin: 0;
-    border: 2px #fff solid;
-    border-radius: 5px;
-    label {
-      color: #fff !important;
-    }
+    text-shadow: 2px 2px 2px #ccc;
+    text-transform: uppercase;
   }
 }
