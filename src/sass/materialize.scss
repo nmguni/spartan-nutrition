@@ -53,6 +53,7 @@ body {
 
 nav {
   a {
+    color: #1b5e20 !important;
     img {
       padding-top: 10px;
     }
@@ -90,7 +91,7 @@ header {
     background-color: rgba(255, 255, 255, 0.9);
   }
   //buttons
-  button {
+  a {
     margin: 10px;
   }
 }
@@ -107,7 +108,8 @@ header {
     font-size: 10px;
   }
   h5 {
-    font-weight: 500;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.8);
   }
   .content {
     padding-top: 10%;
@@ -119,14 +121,15 @@ header {
 }
 //  ----------------PROTEIN
 #protein {
+  color: rgba(0, 0, 0, 0.7);
   height: 100vh;
   h2 {
     font-weight: 600;
     font-size: 32px;
-    color: #2f333a;
+    color: rgba(0, 0, 0, 0.7);
     letter-spacing: 1.2px;
     margin: 0;
-    text-shadow: 2px 2px 2px #ccc;
+    text-shadow: 1px 1px 1px rgb(185, 183, 183);
   }
   .btn {
     background-color: #fff;
@@ -151,10 +154,10 @@ header {
   h2 {
     font-weight: bold;
     font-size: 32px;
-    color: #2f333a;
+    color: rgba(0, 0, 0, 0.7);
     letter-spacing: 1.2px;
     margin: 0;
-    text-shadow: 2px 2px 2px #ccc;
+    // text-shadow: 2px 2px 2px #ccc;
   }
   .row {
     margin-top: 5%;
@@ -163,6 +166,7 @@ header {
   .hover_color:hover {
     .hover_border {
       border: 2px solid #1b5e20;
+      color: #1b5e20;
     }
 
     .hover_text {
@@ -188,13 +192,18 @@ header {
 #partners {
   height: 100vh;
   padding-top: 5%;
+  color: rgba(0, 0, 0, 0.7);
   h2 {
     font-weight: bold;
     font-size: 32px;
     color: #2f333a;
     letter-spacing: 1.2px;
     margin: 0;
-    text-shadow: 2px 2px 2px #ccc;
+    text-shadow: 1px 1px 1px #ccc;
+  }
+  p {
+    font-weight: bold;
+    font-size: 18px;
   }
 
   .row {
@@ -205,12 +214,13 @@ header {
 //      CONTACT -------------------------
 #contact {
   background-color: #f7f7f7;
+  padding-top: 3%;
   h2 {
     // font-weight: bold;
     font-size: 27px;
     color: rgba(7, 7, 7, 0.8);
     letter-spacing: 1.2px;
-    padding: 10px;
+    padding: 5px;
 
     // text-shadow: 2px 2px 2px rgb(0, 0, 0);
   }
@@ -233,6 +243,7 @@ header {
 
       &:hover {
         border: 3px solid #1b5e20;
+        color: #1b5e20;
       }
     }
   }
@@ -292,4 +303,20 @@ header {
 
 footer {
   background-color: #2f333a !important;
+  ul {
+    li {
+      a {
+        color: #fff;
+        font-size: 12px;
+        &:hover {
+          // color: #1b5e20;
+          border-bottom: 1px #fff solid;
+        }
+      }
+    }
+  }
+  .footer-copyright {
+    border-top: 2px solid #fff;
+    font-size: 12px;
+  }
 }
