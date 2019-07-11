@@ -98,7 +98,7 @@ header {
 // -------------TOP SELLING -----------
 
 #top_selling {
-  height: 100vh;
+  height: 100%;
   color: rgba(0, 0, 0, 0.8);
   text-transform: capitalize;
   i {
@@ -137,6 +137,7 @@ header {
     font-weight: 600;
     border: #1b5e20 solid 2px;
     border-radius: 5px;
+    margin: 5px;
   }
   img {
     width: 100%;
@@ -145,10 +146,39 @@ header {
     padding-top: 15%;
   }
 }
+//              MORE PROTEIN--------------
+#more_protein {
+  height: 100vh;
+  background-color: #f7f7f7;
+  padding-top: 10%;
+
+  .card {
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    &:hover {
+      box-shadow: 1px 8px 20px #1b5e20;
+      -webkit-transition: box-shadow 0.6s ease-in;
+    }
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1.2px;
+    margin: 20px;
+    padding: 20px;
+    text-shadow: 1px 1px 1px rgb(185, 183, 183);
+  }
+  p {
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
 //            GOAL ----------------------
 #shop_goal {
   @extend .green, .lighten-4;
-  height: 100vh;
+  height: 100%;
   background-color: #f7f7f7;
   padding-top: 7%;
   h2 {
@@ -289,13 +319,12 @@ header {
           border-radius: 5px;
           background-color: #1b5e20;
           color: #fff;
-          // border: 2px solid #fff;
           font-weight: bold;
         }
       }
     }
     &:hover {
-      box-shadow: 1px 8px 20px grey;
+      box-shadow: 1px 8px 20px #1b5e20;
       -webkit-transition: box-shadow 0.6s ease-in;
     }
   }
@@ -318,5 +347,57 @@ footer {
   .footer-copyright {
     border-top: 2px solid #fff;
     font-size: 12px;
+  }
+}
+
+//        MEDIA ------------------------
+@media only screen and (max-width: 800px) {
+  #top_selling {
+    height: 100%;
+  }
+  #protein {
+    height: 100%;
+    .content {
+      padding: 0;
+    }
+  }
+  #more_protein {
+    height: 100%;
+  }
+  #shop_goal {
+    height: 100%;
+  }
+  #partners {
+    height: 100%;
+  }
+  #contact_info {
+    .card {
+      height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #shop_goal {
+    .circle {
+      cursor: pointer;
+      width: 120px;
+      height: 120px;
+      background: #fff;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      margin-left: 30%;
+    }
+  }
+  #contact {
+    .question {
+      height: 100%;
+      p {
+        margin-left: 35%;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
   }
 }
