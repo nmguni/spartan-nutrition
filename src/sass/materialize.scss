@@ -62,11 +62,11 @@ nav {
 
 //---------------------- HEADER ----
 header {
-  height: 500px;
+  height: 100vh;
 
   .head_content {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 15%;
     h2,
     h4 {
       font-weight: 600;
@@ -80,6 +80,7 @@ header {
   .bg-img {
     background-image: url("../img/main.jpg");
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -93,6 +94,13 @@ header {
   //buttons
   a {
     margin: 10px;
+  }
+}
+#shop_now {
+  padding-top: 5%;
+  .card:hover {
+    box-shadow: 1px 8px 20px #1b5e20;
+    -webkit-transition: box-shadow 0.6s ease-in;
   }
 }
 // -------------TOP SELLING -----------
