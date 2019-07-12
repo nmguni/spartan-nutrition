@@ -369,9 +369,7 @@ footer {
       padding: 0;
     }
   }
-  #more_protein {
-    height: 100%;
-  }
+
   #shop_goal {
     height: 100%;
   }
@@ -381,6 +379,27 @@ footer {
   #contact_info {
     .card {
       height: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #more_protein {
+    height: 100%;
+    .card {
+      img {
+        height: 300px;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  #more_protein {
+    height: 100%;
+    .card {
+      img {
+        height: 100%;
+      }
     }
   }
 }
